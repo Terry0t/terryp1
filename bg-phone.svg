@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Phone with landing page illustration">
+  <rect width="800" height="600" fill="#220c0c"/>
+  <circle cx="620" cy="140" r="150" fill="#7f1d1d" opacity="0.5"/>
+  <circle cx="150" cy="470" r="130" fill="#b45309" opacity="0.3"/>
+  <rect x="290" y="60" width="220" height="480" rx="36" fill="#2c1111" stroke="#ef4444" stroke-width="5"/>
+  <rect x="308" y="84" width="184" height="432" rx="22" fill="#170808"/>
+  <rect x="368" y="72" width="64" height="14" rx="7" fill="#170808"/>
+  <rect x="328" y="110" width="124" height="18" rx="9" fill="#ef4444"/>
+  <rect x="344" y="138" width="92" height="10" rx="5" fill="#d9a8a8" opacity="0.7"/>
+  <rect x="328" y="162" width="144" height="110" rx="10" fill="#7f1d1d"/>
+  <rect x="328" y="282" width="144" height="12" rx="6" fill="#f59e0b"/>
+  <rect x="328" y="302" width="100" height="12" rx="6" fill="#d9a8a8" opacity="0.7"/>
+  <rect x="328" y="330" width="144" height="44" rx="22" fill="#22c55e"/>
+  <g font-family="Arial" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">
+    <text x="400" y="358">WhatsApp Us</text>
+  </g>
+  <rect x="328" y="386" width="144" height="44" rx="10" fill="none" stroke="#5a1f1f" stroke-width="3"/>
+  <rect x="328" y="442" width="90" height="12" rx="6" fill="#5a1f1f"/>
+  <g font-family="monospace" font-size="40" font-weight="bold">
+    <text x="90" y="180" fill="#ef4444" opacity="0.9">&lt;h1&gt;</text>
+    <text x="590" y="460" fill="#f59e0b" opacity="0.9">★ ★ ★</text>
+  </g>
+</svg>

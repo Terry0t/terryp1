@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terry.Dev — Terry, Web Developer</title>
+  <meta name="description" content="Terry builds fast, modern business websites that turn visitors into customers.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Picture-mosaic background ===== -->
+  <div class="bg-collage" aria-hidden="true">
+    <img src="workspace.svg" alt="">
+    <img src="bg-code.svg" alt="">
+    <img src="bg-phone.svg" alt="">
+    <img src="bg-desk.svg" alt="">
+    <img src="bg-phone.svg" alt="">
+    <img src="bg-desk.svg" alt="">
+    <img src="workspace.svg" alt="">
+    <img src="bg-code.svg" alt="">
+    <img src="bg-desk.svg" alt="">
+    <img src="workspace.svg" alt="">
+    <img src="bg-phone.svg" alt="">
+    <img src="bg-code.svg" alt="">
+  </div>
+  <div class="bg-overlay" aria-hidden="true"></div>
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+  <div class="bg-particles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header>
+    <a href="#top" class="logo">terry<span>.dev</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact">Get a Free Quote</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section>
+      <p>Available for new projects — replies in 24h</p>
+      <h1>I build websites that get you customers.</h1>
+      <p>Hi, I'm <strong>Terry</strong> — a web developer for small businesses, startups and freelancers. Fast, clean, mobile-first sites designed to make your phone ring.</p>
+      <a href="#contact">Message Me</a>
+      <a href="#work">See My Work</a>
+
+      <ul>
+        <li><strong>20+</strong> Projects shipped</li>
+        <li><strong>100%</strong> Mobile responsive</li>
+        <li><strong>5 star</strong> Client rating</li>
+      </ul>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services">
+      <h2>What I can build for you</h2>
+      <p>One developer, zero agency bloat. You talk directly to me.</p>
+
+      <article>
+        <h3>Business Websites</h3>
+        <p>Professional sites for service businesses. Home, About, Services, Reviews, Contact.</p>
+        <p>From $499</p>
+      </article>
+
+      <article>
+        <h3>Online Stores</h3>
+        <p>Sell online with payments, product pages and easy checkout.</p>
+        <p>From $899</p>
+      </article>
+
+      <article>
+        <h3>Landing Pages</h3>
+        <p>One-page sites for launches and ads, with WhatsApp and call buttons.</p>
+        <p>From $299</p>
+      </article>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section id="work">
+      <h2>Recent work</h2>
+
+      <article class="featured">
+        <h3>Fit With Lee Coaching</h3>
+        <p>Lead-gen page with sign-up form. 120+ leads in first month.</p>
+        <p><a href="../fitwitlee/index.html">View live project →</a></p>
+      </article>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <h2>About Terry</h2>
+      <!-- Faceless designer workspace illustration (replace with your own photo anytime) -->
+      <img src="workspace.svg" alt="Web designer workspace with code on screen" width="420">
+      <p>I'm Terry, a freelance web developer focused on one thing: <strong>websites that make small businesses money.</strong></p>
+      <ul>
+        <li>Direct communication — you always talk to me</li>
+        <li>Fixed pricing agreed before we start</li>
+        <li>You own 100% of your site and domain</li>
+      </ul>
+      <a href="#contact">Work With Me</a>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <h2>Let's build something that brings you business</h2>
+      <p>Message me and I'll reply within 24 hours with next steps and a free quote.</p>
+
+      <ul>
+        <li><a href="https://wa.me/2348129343355?text=Hi%20Terry!%20I%20need%20a%20website." target="_blank" rel="noopener">WhatsApp: 08129343355</a></li>
+        <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=makertrouble605@gmail.com&su=Website%20Project%20Inquiry" target="_blank" rel="noopener">Email: makertrouble605@gmail.com</a></li>
+      </ul>
+
+      <form id="contactForm">
+        <label>Your name:
+          <input type="text" id="fieldName" name="name" required>
+        </label>
+        <br><br>
+        <label>Your contact info (phone, WhatsApp or email):
+          <input type="text" id="fieldContact" name="contact" placeholder="e.g. 0812 345 6789 or you@mail.com" required>
+        </label>
+        <br><br>
+        <label>Tell me about your project:
+          <br>
+          <textarea id="fieldMessage" name="message" rows="5" cols="30" required></textarea>
+        </label>
+        <br><br>
+        <p>Send your message via:</p>
+        <button type="button" id="sendWhatsApp">Send via WhatsApp</button>
+        <button type="button" id="sendEmail">Send via Email</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>terry.dev — Websites for businesses that mean business.</p>
+    <p>© 2026 Terry</p>
+  </footer>
+
+  <!-- ===== FORM: send via WhatsApp or Email ===== -->
+  <script>
+    function getFormText() {
+      var name = document.getElementById('fieldName').value.trim();
+      var contact = document.getElementById('fieldContact').value.trim();
+      var message = document.getElementById('fieldMessage').value.trim();
+      if (!name || !contact || !message) {
+        alert('Please fill in your name, contact info and project details first.');
+        return null;
+      }
+      return { name: name, contact: contact, message: message };
+    }
+
+    document.getElementById('sendWhatsApp').addEventListener('click', function () {
+      var d = getFormText();
+      if (!d) return;
+      var text = 'Hi Terry! I am ' + d.name + ' (' + d.contact + ').\n\nMy project: ' + d.message;
+      window.open('https://wa.me/2348129343355?text=' + encodeURIComponent(text), '_blank');
+    });
+
+    document.getElementById('sendEmail').addEventListener('click', function () {
+      var d = getFormText();
+      if (!d) return;
+      var subject = encodeURIComponent('Website Project Inquiry from ' + d.name);
+      var body = encodeURIComponent('Name: ' + d.name + '\nContact: ' + d.contact + '\n\nMy project:\n' + d.message);
+      window.open('https://mail.google.com/mail/?view=cm&fs=1&to=makertrouble605@gmail.com&su=' + subject + '&body=' + body, '_blank');
+    });
+  </script>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
